@@ -7,13 +7,15 @@ Execute the following command at the windows command prompt. In the example, spe
 ```
 yFlowGen.exe -f sample.c  
 ```
-![Sample](http://toowaki.web.fc2.com/picture/yflow_img_for_github.png "")
+![Sample](http://toowaki.web.fc2.com/picture/yFLowGne_pic_code2gml.png "")
 
 ## Example : For DOT + SVG files 
 Execute the following command at the windows command prompt. In the example, specify sample.c as the source file.
 ```
 yFlowGen.exe -f sample.c -format dot 
 ```
+![Sample](http://toowaki.web.fc2.com/picture/yFLowGne_pic_code2dot.png "")
+
 ##	How to run yFlowGen.exe
 - 1)	Please open a Windows command prompt.
 - 2)	Please execute yFlowGen.exe by specifying the source code after "-f" option.
