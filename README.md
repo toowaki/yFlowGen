@@ -40,4 +40,6 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_reset     : Do not delete result folder when script start.(Optional)
 -true_false   : Describe the judgment of if/else_if with True/False (described as Yes/No when not set)
 -no_connection_point : No additional connection points (add connection points if not set)
+-ignoredef : Invalid #define names. (Optional.When not set, all define names are displayed as valid) 
+-disp_invalid_def : Display invalid #define descriptions as comments.(Optional)
 ```
