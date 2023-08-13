@@ -11,6 +11,7 @@ yFlowGen.exe -f sample.c
 
 ## Example : For DOT + SVG files 
 Execute the following command at the windows command prompt. In the example, specify sample.c as the source file.
+In the case of DOT+SVG files, automatic alignment is also performed by the function of Graphviz.
 ```
 yFlowGen.exe -f sample.c -format dot 
 ```
@@ -39,8 +40,10 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_g
 -no_disp_struct : Do not display struct and union. (Optional)
 -no_reset     : Do not delete result folder when script start.(Optional)
 -true_false   : Describe the judgment of if/else_if with True/False (described as Yes/No when not set)
--no_connection_point : No additional connection points (add connection points if not set)
--ignoredef : Invalid #define names. (Optional.When not set, all define names are displayed as valid) 
+-no_connection_point : No additional connection points (Optional. add connection points if not set)
+-define <defA,defB,defC=1,etc>: Valid #define names. (Optional.To specify more than one, separate them by commas.)
 -disp_invalid_def : Display invalid #define descriptions as comments.(Optional)
+-left_flow_is_no: Left of IF branch is NO, right is YES
 -add_extension <cxx,cs,etc> : Additional extension (Optional)
+-pj_name <your_project_name> : Project Name (Optional)
 ```
