@@ -24,9 +24,9 @@ yFlowGen.exe -f sample.c -format dot
 - 4)	The log is output to log_yFlowGen.txt.
 The following arguments can be specified when executing.
 ```
-yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -color -debug -out_group_comment
+yFlowGen.exe -f <filePath> -no_compact -no_comment -out1file -debug -out_group_comment
 or
-yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -color -debug -out_group_comment
+yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -debug -out_group_comment
 
 -f <filePath> : Path of file to analyze.(It can be omitted if -d is described)
 -d <dirPath>  : Path of folder containing source files. (It can be omitted if -f is described)
