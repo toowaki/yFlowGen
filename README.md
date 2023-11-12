@@ -46,7 +46,6 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 -true_false   : Describe the judgment of if/else_if with True/False (described as Yes/No when not set)
 -no_connection_point : No additional connection points (Optional. add connection points if not set)
 -define <defA,defB,defC=1,etc>: Valid #define names. (Optional.To specify more than one, separate them by commas.)
--disp_invalid_def : Display invalid #define descriptions as comments.(Optional)
 -left_flow_is_no: Left of IF branch is NO, right is YES. (Optional)
 -add_extension <cxx,cs,etc> : Additional extension. (Optional)
 -pj_name <your_project_name> : Project Name. (Optional)
