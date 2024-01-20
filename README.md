@@ -51,3 +51,7 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 -pj_name <your_project_name> : Project Name. (Optional)
 -copy_org_code : Copy the input file source code to the results folder. (Optional)
 ```
+## RUNS ON  
+- Windows 11
+- Windows 10 32/64 bit
+- Windows 7 32/64 bit
