@@ -34,6 +34,7 @@ yFlowGen.exe -d <dirPath> -no_compact -no_comment -out1file -out_group_comment
 
 -f <filePath> : Path of file to analyze.(It can be omitted if -d is described)
 -d <dirPath>  : Path of folder containing source files. (It can be omitted if -f is described)
+-o <dirPath> : Path to save the generated results(Optional)
 -format <format> : Entering "-format dot" generates DOT and SVG files. (If omitted, GML files are generated.)
 -out1file     : Output 1 GML file per 1 source file. (Optional)
 -no_compact   : Turn off the setting to make the processing block size as small as possible. (Optional)
